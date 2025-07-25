@@ -9,6 +9,11 @@ import ProductList from './components/ProductList'
 import Navbar2 from './components/Navbar2'
 import SingleProduct from './components/SingleProduct'
 import About from './components/About'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import PrivateRoute from './components/PrivateRoute'
 
 const router = createBrowserRouter([
   {
@@ -40,9 +45,23 @@ const router = createBrowserRouter([
     element: <><Navbar2/><SingleProduct/><Footer/></>
   },
   {
-    path:'/cart',
-    element: <><Navbar2/><Cart/><Footer/></>
-  },
+  path: '/cart',
+  element: (
+    <PrivateRoute>
+      <Navbar2 />
+      <Cart />
+      <Footer />
+    </PrivateRoute>
+  )
+},
+  {
+  path: "/login",
+  element: <><Navbar2/><Login/><Footer/></>
+},
+{
+  path: "/register",
+  element: <><Navbar2/><Register/><Footer/></>
+}
  
 ])
 
@@ -56,6 +75,8 @@ const App = () => {
         followSpeed: 1.5,
       }}
       >
+        {/* ✅ Add ToastContainer globally */}
+        <ToastContainer position="top-right" autoClose={1000} />
      <RouterProvider router={router}/>
      </UpdateFollower>
     </main>
