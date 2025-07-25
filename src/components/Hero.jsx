@@ -41,7 +41,7 @@ const ShoesData = [
   {
   id: 1,
   image: shoes1, // Make sure the image is imported correctly
-  title: "The Duke Blue Shoes",
+  title: "The Duke Black Shoes",
   subtitle: "Bold & Premium Vegan Leather",
   price: "3490",
   model: "Formal",
