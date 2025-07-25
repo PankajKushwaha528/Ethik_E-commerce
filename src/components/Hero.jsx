@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 import shoes1 from "../assets/shoes1.png";
 import shoes2 from "../assets/shoes2.png";
 import wallet1 from "../assets/wallet1.png";
-import Belt from "../assets/belt.png";
+import Belt from "../assets/Belt.png";
 
 import { motion, AnimatePresence, easeInOut } from 'framer-motion'
 import {UpdateFollower} from "react-mouse-follower"
