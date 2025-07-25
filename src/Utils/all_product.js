@@ -2,15 +2,15 @@ let all_product = [
   {
     id: 1,
     name: "MR. KIM",
-    category: "men",
+    category: "footwear",
     image:
       "https://ethikonline.com/cdn/shop/files/Mr._Kim_Black_2000x2500_crop_top.progressive.jpg?v=1751370341",
     image1:
-      "	https://ethikonline.com/cdn/shop/files/Mr._Kim_Black_400x500_crop_top.progressive.jpg?v=1751370341",
+      "https://ethikonline.com/cdn/shop/files/Ethik_22_bc099d3d-28a7-47da-b046-15d88df8c59e_2000x2500_crop_top.progressive.jpg?v=1751370341",
     image2:
-      "https://ethikonline.com/cdn/shop/files/Ethik_22_bc…59e_400x500_crop_top.progressive.jpg?v=1751370341",
+      "https://ethikonline.com/cdn/shop/files/3_25654158-03f2-4c84-b731-8f771e43842c_2000x2500_crop_top.progressive.jpg?v=1751370341",
     image3:
-      "	https://ethikonline.com/cdn/shop/files/3_25654158-…42c_400x500_crop_top.progressive.jpg?v=1751370341",
+      "https://ethikonline.com/cdn/shop/files/sdfa_2000x2500_crop_top.progressive.jpg?v=1751370341",
     new_price: 2990.0,
     old_price: 3890.0,
     color: "Textured Brown",
@@ -21,15 +21,15 @@ let all_product = [
   {
     id: 2,
     name: "THE GENTLEMEN",
-    category: "footwear", // ✅ Corrected category
+    category: "footwear", 
     image:
-      "	https://ethikonline.com/cdn/shop/files/The_Gentlem…n_2000x2500_crop_top.progressive.jpg?v=1751369971",
+      "https://ethikonline.com/cdn/shop/files/The_Gentleman_Tan_2000x2500_crop_top.progressive.jpg?v=1751369971",
     image1:
-      "https://ethikonline.com/cdn/shop/files/Ethik_21_63…0_2000x2500_crop_top.progressive.jpg?v=1751369971",
+      "https://ethikonline.com/cdn/shop/files/4-Photoroom_b0582f93-62cd-49af-b9d4-7be1a23ff8c5_2000x2500_crop_top.progressive.jpg?v=1751369971",
     image2:
       "https://ethikonline.com/cdn/shop/files/Ethik_20_2000x2500_crop_top.progressive.jpg?v=1751369971",
     image3:
-      "	https://ethikonline.com/cdn/shop/files/4-Photoroom…5_2000x2500_crop_top.progressive.jpg?v=1751369971",
+      "https://ethikonline.com/cdn/shop/files/4-Photoroom_b0582f93-62cd-49af-b9d4-7be1a23ff8c5_2000x2500_crop_top.progressive.jpg?v=1751369971",
     new_price: 3190.0,
     old_price: 3990.0,
     color: "Glossy Black",
@@ -39,16 +39,16 @@ let all_product = [
   },
   {
     id: 3,
-    name: "NINE TO FINE",
+    name: "NINE 2 FINE",
     category: "footwear",
     image:
       "https://ethikonline.com/cdn/shop/files/DSC02195_copy_2000x2500_crop_top.progressive.jpg?v=1751352464",
     image1:
-      "https://ethikonline.com/cdn/shop/files/Ethik_20_0c…2_2000x2500_crop_top.progressive.jpg?v=1751369765",
+      "https://ethikonline.com/cdn/shop/files/2_a157a94a-672f-4f36-8d20-c8d73eba9716_2000x2500_crop_top.progressive.jpg?v=1751352464",
     image2:
-      "https://ethikonline.com/cdn/shop/files/3_b0915e42-…d_2000x2500_crop_top.progressive.jpg?v=1751369765",
+      "https://ethikonline.com/cdn/shop/files/4-Photoroom_601a49d9-a293-4d31-9365-487eb8c3d453_2000x2500_crop_top.progressive.jpg?v=1751352464",
     image3:
-      "https://ethikonline.com/cdn/shop/files/5-Photoroom…c_2000x2500_crop_top.progressive.jpg?v=1751352464",
+      "https://ethikonline.com/cdn/shop/files/1-Photoroom_46a2a1e7-e7c8-4a45-8e15-265f168367b0_2000x2500_crop_top.progressive.jpg?v=1751352464",
     new_price: 2890.0,
     old_price: 3690.0,
     color: "Polished Walnut",
@@ -61,9 +61,9 @@ let all_product = [
   name: "TASSEL TUX",
   category: "footwear",
   image: "https://ethikonline.com/cdn/shop/files/DSC02049copy_2000x2500_crop_top.progressive.jpg?v=1751352448",
-  image1: "https://ethikonline.com/cdn/shop/files/Ethik_19_32…1_2000x2500_crop_top.progressive.jpg?v=1751369747",
-  image2: "https://ethikonline.com/cdn/shop/files/3_353a0be4-…2_2000x2500_crop_top.progressive.jpg?v=1751369747",
-  image3: "https://ethikonline.com/cdn/shop/files/7-Photoroom…8_2000x2500_crop_top.progressive.jpg?v=1751352448",
+  image1: "https://ethikonline.com/cdn/shop/files/Ethik_19_32f73fd7-e049-4462-9f96-75b7d3c44121_2000x2500_crop_top.progressive.jpg?v=1751369747",
+  image2: "https://ethikonline.com/cdn/shop/files/3_353a0be4-5f92-4652-bf66-9c478034ecc2_2000x2500_crop_top.progressive.jpg?v=1751369747",
+  image3: "https://ethikonline.com/cdn/shop/files/4-Photoroom_7651be7f-a1b1-4202-806d-3efa342e45f1_2000x2500_crop_top.progressive.jpg?v=1751352448",
   new_price: 3390.0,
   old_price: 4190.0,
   color: "Jet Black with Tassels",
@@ -74,7 +74,7 @@ let all_product = [
   id: 5,
   name: "MONK KNIGHT",
   category: "footwear",
-  image: "https://ethikonline.com/cdn/shop/files/Monk_Knight…k_2000x2500_crop_top.progressive.jpg?v=1751370267",
+  image: "https://ethikonline.com/cdn/shop/files/6-Photoroom_5cb50aa4-4f89-4be9-8409-fd87a47c668e_2000x2500_crop_top.progressive.jpg?v=1751370267",
   image1: "https://ethikonline.com/cdn/shop/files/6-Photoroom…e_2000x2500_crop_top.progressive.jpg?v=1751370267",
   image2: "https://ethikonline.com/cdn/shop/files/3-Photoroom…e_2000x2500_crop_top.progressive.jpg?v=1751370267",
   image3: "https://ethikonline.com/cdn/shop/files/1-Photoroom…d_2000x2500_crop_top.progressive.jpg?v=1751370267",

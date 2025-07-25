@@ -48,7 +48,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className='bg-gray-800 text-center py-4 text-sm'>
-                <p>&copy; {new Date().getFullYear()} Ethik. All rights reserved. Owned by Knoskin Fashion Pvt. Ltd.</p>
+                <p>&copy; {new Date().getFullYear()} Ethik. All rights reserved. Designed by Pankaj Kushwaha</p>
             </div>
         </footer>
     )
