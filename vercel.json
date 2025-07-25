@@ -1,0 +1,9 @@
+{
+    "routes": [
+        {"src": "/footwear", "dest":"/"},
+        {"src": "/wallet", "dest":"/"},
+        {"src": "/belts", "dest":"/"},
+        {"src": "/cart", "dest":"/"},
+        {"src": "/products/:productId", "dest":"/"}
+    ]
+}
